@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+* {
+        font-family: 'Droid Arabic Kufi', serif;font-size:100%;
+      }
+h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+      }
+
+ a:link { text-decoration: none;}
+ a:visited { text-decoration: none;}
+ a:hover { text-decoration: underline; color: blue;}
+ a:active { text-decoration: underline;}
+body
+{
+    margin: 0;
+    padding: 0;
+   
+}
+div.navbar
+{
+    background-color: #6ecde5;
+    margin: 0;
+    padding: 20;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+     color: #fff;
+    position: relative;
+    
+
+}
+
+div.navbar a:hover { text-decoration: underline; color: blue;}
+
+ div.navbar a {
+        color: white;
+        font-weight: bold;
+         margin: 8px;
+        font-size: 18;
+     background: #6ecde5;
+       
+      }
+
+div.mainContent{
+    margin: auto;
+    padding: 0;
+    color: white;
+    background-image: url(Images/main.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+   
+}
+div.sign{
+    margin: auto;  
+    padding: 30px;
+     
+  text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 100;
+    font-size: 30px;
+    line-height: 20pt;
+
+}
+div.links
+{
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+.loginlink a{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+
+
+div.signUplink a:hover { text-decoration: underline ; color: white}
+div.loginlink a:hover { text-decoration: underline ; color: black;}
+.signUplink a{
+    background-color: 6ecde5;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+div.CoursesArea h5,h1
+{
+        text-align: center;
+     padding: 10px;
+    margin: 10px;
+      font-size: 30px;
+    font-weight: bold;
+}
+
+div.courses
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:auto;
+    padding: 40px;
+    width : 75%;
+    
+}
+    
+div.courses h1
+{
+    text-align: center;
+    
+    
+}
+div.course
+{
+    text-align: center;
+    border-width: 2px solid white;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px -1px #57575d;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 250px;
+}
+
+.course h1,h2 {
+        margin: 40px auto;
+        background: #5c4dce;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    padding: 10px;
+      }
+.courseDetails p {
+        margin-bottom: 2px;
+        font-weight: bold;
+    color: #007bff;
+    text-align: end;
+      }
+.communitiesArea 
+{
+    background-color: gainsboro;
+    padding: 50px;
+     justify-content: space-between;
+    align-items: center;
+    align-content: center;
+ margin: auto;
+}
+
+
+div.communities h5,h1
+{
+        text-align: center;
+   
+}
+.communities
+{
+    
+    justify-content: space-between;
+    align-items: center;
+     align-content: center;
+    border-color: black;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    
+}
+.commColumn
+{
+   align-items: center;
+    display: flex;
+     align-content: center;
+}
+.community
+{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px -1px #57575d;
+    display: flex;
+    width: 65%;
+    padding: 30px;
+    margin: 15px;
+}
+.innerComm
+{
+  text-align: right;
+    font-weight: 100;
+    font-size: 20;
+    direction: rtl;
+    padding: 10px;
+}
+.contactArea
+{
+    padding: 30px;
+    align-content: center;
+    align-items: center;
+}
+.contactUs
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+}
+.contactOptions
+{
+    justify-content: space-between;
+    align-items: center;
+     align-content: center;
+    margin: auto;
+    padding: 10;
+  
+}
+.contactAdress
+{
+     text-align: center;
+    border-width: 2px solid white;
+    border-color: black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px -1px #57575d;
+    padding:0px;
+    width: 300px;
+    margin: 20;
+   display: flex;
+}
+
+div.Co  
+{
+    color: aqua;
+    background-color: #6ecde5;
+    margin: 0;
+    padding: 20;
+    width: 30;
+}
+.footer
+{
+   direction: rtl;
+    color: white;
+    background-color: #6ecde5;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
